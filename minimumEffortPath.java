@@ -30,7 +30,7 @@ class Solution {
         // while the priority queue is not empty 
         while(!pq.isEmpty())
         {
-            // array value to hold the values that have been put in the priority queue
+            // array value to hold the values that havebeen put in the priority queue
             int[] min = pq.poll();
             // dist same as the current minimum effort for [row][col]
             int dist = min[0], row = min[1], col = min[2];
