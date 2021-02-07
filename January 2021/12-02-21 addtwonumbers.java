@@ -7,7 +7,7 @@
  * 4. When the loop end we set up a new loop to finish any loops that arent finished
  * 5. If the mod isnt empty we can keep adding the value to the listnode
  * 6. Return the sum_list
- */
+ 
 public class ListNode {
         int val;
         ListNode next;
@@ -15,7 +15,8 @@ public class ListNode {
         ListNode(int val) { this.val = val; }
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
-
+*/
+import java.util.*;
 class Solid
 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2)
