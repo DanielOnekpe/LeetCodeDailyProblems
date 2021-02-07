@@ -10,7 +10,7 @@ import java.util.*;
  *     }
  * }
  */
-public class Solution {
+class Solution {
     public boolean hasCycle(ListNode head) {
         Set<ListNode> existed = new HashSet<>();
         while(head != null)
