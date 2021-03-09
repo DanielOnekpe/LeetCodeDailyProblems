@@ -40,25 +40,21 @@ public class addOneRow {
                     current.left.left = left;
                     current.right.right = right;
                 }
-                
                 else
                 {
                     if(current.left != null)
                     {
                         q.add(current.left);
                     }
-                    
                     if(current.right != null)
                     {
                         q.add(current.right);
                     }
                 }
             }
-            
             if(d == 1) return root;
             d--;
         }
-        
         return root;
     }
 }
